@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ảnh chế</title>
+    <link rel="stylesheet" href="libs/bootstrap-3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="libs/fontAwesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Narbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container navbar_has_search_container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header navbar_header_inline_block">
+                <button type="button" class="navbar-toggle menu_in_left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+                <a class="logo-img" href="#"><img src="img/logo-077.png" height="50px" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li class="active"><a href="#">Ảnh chế</a></li>
+                    <li><a href="#">Ảnh động</a></li>
+                    <li><a href="#">Video</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Xem thêm<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Truyện cười</a></li>
+                            <li><a href="#">Another action</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="right">
+                <div class="navbar_has_search_container_child">
+                    <div class="navbar_has_search">
+                        <div class="navbar-right">
+                            <a href="#" id="myBtn"><i class="fa fa-user" style="padding-right: 30px;font-size: 18px;"></i></a>
+                        </div>
+                        <form class="navbar-form" role="search">
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search...">
+
+                                <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-default">
+                                            <span class="glyphicon glyphicon-search">
+                                                    <span class="sr-only">Search...</span>
+                                </span>
+                                </button>
+                                </span>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Login -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="padding:35px 50px;">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+                </div>
+                <div class="modal-body" style="padding:40px 50px;">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+                            <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                            <input type="text" class="form-control" id="psw" placeholder="Enter password">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="" checked>Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p>Not a member? <a href="#">Sign Up</a></p>
+                    <p>Forgot <a href="#">Password?</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Main -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <h1 class="section-title">Ảnh chế</h1>
+                <div id="site-content" class="site-content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="left-content">
+                                <div class="details-news">
+                                    <div class="post">
+                                        <a href="">
+                                            <h2 class="entry-title">
+                                                Các cầu thủ "buồn rầu" khi thêm một tuần nữa không có bóng đá
+                                            </h2>
+                                        </a>
+
+                                        <div class="entry-metal">
+                                            <ul class="item-social">
+                                                <li class="posted-by"><i class="fa fa-user"></i> by <a href="#">owen william</a></li>
+                                                <li>
+                                                    <img src="img/clock-9pm-512.png" alt="" width="15px" height="15px" style="margin-right: 5px;">1 phút trước
+                                                </li>
+                                                <li><i class="fa fa-eye"></i>15k</li>
+                                                <li><i class="fa fa-heart"></i>278</li>
+                                                <li><i class="fa fa-comment"></i>189</li>
+                                                <li>
+                                                    <a href="#"><img src="img/icon-fb-news.png" alt="" class="fb-share"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="entry-header">
+                                            <img src="img/anhche04.jpg" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="post-content">
+                                        Content
+                                    </div>
+                                    <!-- Post -->
+                                </div>
+                                <!-- end section -->
+                            </div>
+                            <!-- end left-content -->
+                        </div>
+                    </div>
+                </div>
+                <div class="new-news">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="section-title">Mới hơn</h2>
+                            <div class="col-sm-4">
+                                <div class="post medium-post">
+                                    <div class="entry-header">
+                                        <img src="img/tro-chuyen.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="post-metal">
+                                        <div class="entry-metal">
+                                            <ul class="item-social">
+                                                <li>
+                                                    <img src="img/clock-9pm-512.png" alt="" width="15px" height="15px" style="margin-right: 5px;">1 phút trước
+                                                </li>
+                                                <li><i class="fa fa-eye"></i>15k</li>
+                                                <li><i class="fa fa-heart"></i>278</li>
+                                                <li><i class="fa fa-comment"></i>189</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="content-new">
+                                            <p>Tình trạng bây giờ của tôi . . . .</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="post medium-post">
+                                    <div class="entry-header">
+                                        <img src="img/anhche05.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="post-metal">
+                                        <div class="entry-metal">
+                                            <ul class="item-social">
+                                                <li>
+                                                    <img src="img/clock-9pm-512.png" alt="" width="15px" height="15px" style="margin-right: 5px;">1 phút trước
+                                                </li>
+                                                <li><i class="fa fa-eye"></i>15k</li>
+                                                <li><i class="fa fa-heart"></i>278</li>
+                                                <li><i class="fa fa-comment"></i>189</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="content-new">
+                                            <p>Sự thật về trào lưu "Hải, quay xe"</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="post medium-post">
+                                    <div class="entry-header">
+                                        <img src="img/anhche07.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="post-metal">
+                                        <div class="entry-metal">
+                                            <ul class="item-social">
+                                                <li>
+                                                    <img src="img/clock-9pm-512.png" alt="" width="15px" height="15px" style="margin-right: 5px;">1 phút trước
+                                                </li>
+                                                <li><i class="fa fa-eye"></i>15k</li>
+                                                <li><i class="fa fa-heart"></i>278</li>
+                                                <li><i class="fa fa-comment"></i>189</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="content-new">
+                                            <p>Cách giải quyết khi diễn viên chính nhưng lại ít đất diễn</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-news">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="section-title">Củ hơn</h2>
+                            <div class="col-sm-4">
+                                <div class="post medium-post">
+                                    <div class="entry-header">
+                                        <img src="img/anhche09.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="post-metal">
+                                        <div class="entry-metal">
+                                            <ul class="item-social">
+                                                <li>
+                                                    <img src="img/clock-9pm-512.png" alt="" width="15px" height="15px" style="margin-right: 5px;">1 phút trước
+                                                </li>
+                                                <li><i class="fa fa-eye"></i>15k</li>
+                                                <li><i class="fa fa-heart"></i>278</li>
+                                                <li><i class="fa fa-comment"></i>189</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="content-new">
+                                            <p>Nơi phù hợp nhất cho những con người nhạt nhẽo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="post medium-post">
+                                    <div class="entry-header">
+                                        <img src="img/anhche10.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="post-metal">
+                                        <div class="entry-metal">
+                                            <ul class="item-social">
+                                                <li>
+                                                    <img src="img/clock-9pm-512.png" alt="" width="15px" height="15px" style="margin-right: 5px;">1 phút trước
+                                                </li>
+                                                <li><i class="fa fa-eye"></i>15k</li>
+                                                <li><i class="fa fa-heart"></i>278</li>
+                                                <li><i class="fa fa-comment"></i>189</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="content-new">
+                                            <p>Nỗi khổ tâm khi yêu phải một cô gái thích "suy diễn"</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="post medium-post">
+                                    <div class="entry-header">
+                                        <img src="img/anhche11.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="post-metal">
+                                        <div class="entry-metal">
+                                            <ul class="item-social">
+                                                <li>
+                                                    <img src="img/clock-9pm-512.png" alt="" width="15px" height="15px" style="margin-right: 5px;">1 phút trước
+                                                </li>
+                                                <li><i class="fa fa-eye"></i>15k</li>
+                                                <li><i class="fa fa-heart"></i>278</li>
+                                                <li><i class="fa fa-comment"></i>189</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="content-new">
+                                            <p>Bỗng được gia đình quan tâm hết mực</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="old-news">
+
+                </div>
+                <!-- End site-content -->
+
+            </div>
+            <div class="col-md-3">
+                <div class="sitebar">
+                    <div class="widget">
+                        <div class="QC">
+                            <a href="#">
+                                <img src="img/sitebar.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <h1 class="section-title">Tin hot</h1>
+                        <div class="widget-content">
+                            <div class="img-widget" width=50%>
+                                <img src="img/anhche02.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="content-widget" width=50%>
+                                <div class="widget-title">
+                                    <a href="#">Chân chống xe được 'mang giày' cá tính</a>
+
+                                </div>
+                                <div class="text-title">
+                                    <!-- <p>Một sự pha trộn ton-sur-ton giữa chất lừ và đáng yêu.</p> -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget-content">
+                            <div class="img-widget" width=50%>
+                                <img src="img/anhche01.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="content-widget" width=50%>
+                                <div class="widget-title">
+                                    <a href="#">Bác nông dân tự cắt tóc bằng kéo tỉa lông cừu</a>
+                                </div>
+                                <div class="text-title">
+                                    <!-- <p>Hoàn hảo từng chi tiết</p> -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End main -->
+    <!-- Footer -->
+    <footer>
+        <nav class="navbar navbar-default navbar-bottom" role="navigation">
+            <div class="container">
+                <div class="footer">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="row">
+                        <div class="item-footer">
+                            <p>Coppyright @ 31/03/2020</p>
+                        </div>
+                        <div class="item-footer text-right">
+                            <span class="footer-icon ">
+                        <a href="#"><i class='fa fa-twitter'></i></a>
+                        <a href="#"><i class='fa fa-facebook'></i></a>
+                        <a href="#"><i class='fa fa-skype'></i></a>
+                        <a href="#"><i class='fa fa-youtube'></i></a>
+                        <a href="#"><i class='fa fa-google'></i></a>
+                    </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </footer>
+
+    <!-- End footer -->
+</body>
+
+<script src="libs/jQuery-3.4.1/jquery-3.4.1.min.js"></script>
+<script src="libs/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+<script src="jquery/jquery.js"></script>
+<script>
+    $(function() {
+        // Remove Search if user Resets Form or hits Escape!
+        $('body, .navbar_has_search form[role="search"] button[type="reset"]').on('click keyup', function(event) {
+            console.log(event.currentTarget);
+            if (event.which == 27 && $('.navbar_has_search form[role="search"]').hasClass('active') ||
+                $(event.currentTarget).attr('type') == 'reset') {
+                closeSearch();
+            }
+        });
+
+        function closeSearch() {
+            var $form = $('.navbar_has_search form[role="search"].active')
+            $form.find('input').val('');
+            $form.removeClass('active');
+        }
+
+        // Show Search if form is not active // event.preventDefault() is important, this prevents the form from submitting
+        $(document).on('click', '.navbar_has_search form[role="search"]:not(.active) button[type="submit"]', function(event) {
+            event.preventDefault();
+            var $form = $(this).closest('form'),
+                $input = $form.find('input');
+            $form.addClass('active');
+            $input.focus();
+
+        });
+        // ONLY FOR DEMO // Please use $('form').submit(function(event)) to track from submission
+        // if your form is ajax remember to call `closeSearch()` to close the search container
+        $(document).on('click', '.navbar_has_search form[role="search"].active button[type="submit"]', function(event) {
+            event.preventDefault();
+            var $form = $(this).closest('form'),
+                $input = $form.find('input');
+            $('#showSearchTerm').text($input.val());
+            closeSearch()
+        });
+    });
+</script>
+
+</html>
